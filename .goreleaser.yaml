@@ -11,7 +11,7 @@ builds:
       - amd64
       - arm64
     ldflags:
-      - -s -w -X github.com/isaacaudet/clawdtop/cmd.Version={{.Version}}
+      - -s -w -X github.com/isaacaudet/aitop/cmd.Version={{.Version}}
 
 archives:
   - formats:
@@ -25,7 +25,7 @@ brews:
   - repository:
       owner: isaacaudet
       name: homebrew-tap
-    homepage: "https://github.com/isaacaudet/clawdtop"
+    homepage: "https://github.com/isaacaudet/aitop"
     description: "Interactive terminal dashboard for Claude Code usage"
 
 changelog:

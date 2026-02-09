@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/charmbracelet/lipgloss"
-	"github.com/isaacaudet/clawdtop/internal/provider"
+	"github.com/isaacaudet/aitop/internal/provider"
 )
 
 const (

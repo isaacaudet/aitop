@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/isaacaudet/clawdtop/internal/model"
+	"github.com/isaacaudet/aitop/internal/model"
 )
 
 // Codex implements Provider for OpenAI Codex CLI.

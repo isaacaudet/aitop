@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/isaacaudet/clawdtop/internal/model"
+	"github.com/isaacaudet/aitop/internal/model"
 )
 
 // ParseSessionFile parses a single JSONL session file into a Session.

@@ -27,7 +27,7 @@ func DefaultConfigPath() string {
 	if err != nil {
 		return ""
 	}
-	return filepath.Join(home, ".config", "clawdtop", "config.toml")
+	return filepath.Join(home, ".config", "aitop", "config.toml")
 }
 
 // Load reads the config file, returning defaults if it doesn't exist.

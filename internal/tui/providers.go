@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/charmbracelet/lipgloss"
-	"github.com/isaacaudet/clawdtop/internal/provider"
-	"github.com/isaacaudet/clawdtop/internal/tui/components"
+	"github.com/isaacaudet/aitop/internal/provider"
+	"github.com/isaacaudet/aitop/internal/tui/components"
 )
 
 func renderProvidersView(aggData *provider.AggregatedData, width int, period timePeriod) string {

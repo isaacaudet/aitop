@@ -3,10 +3,10 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/isaacaudet/clawdtop/internal/config"
-	"github.com/isaacaudet/clawdtop/internal/model"
-	"github.com/isaacaudet/clawdtop/internal/parser"
-	"github.com/isaacaudet/clawdtop/internal/provider"
+	"github.com/isaacaudet/aitop/internal/config"
+	"github.com/isaacaudet/aitop/internal/model"
+	"github.com/isaacaudet/aitop/internal/parser"
+	"github.com/isaacaudet/aitop/internal/provider"
 	"github.com/spf13/cobra"
 )
 
@@ -25,7 +25,7 @@ var summaryCmd = &cobra.Command{
 		providers := AllProviders()
 		aggData := provider.LoadAll(providers)
 
-		fmt.Println("clawdtop — AI Usage Dashboard")
+		fmt.Println("aitop — AI Usage Dashboard")
 		fmt.Println("═══════════════════════════════════════════════════════")
 		fmt.Println()
 

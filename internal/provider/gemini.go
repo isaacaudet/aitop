@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/isaacaudet/clawdtop/internal/model"
+	"github.com/isaacaudet/aitop/internal/model"
 )
 
 // Gemini implements Provider for Google Gemini CLI.

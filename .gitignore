@@ -1,6 +1,6 @@
 # Binary
-clawdtop
-clawdtop.exe
+aitop
+aitop.exe
 
 # OS
 .DS_Store
@@ -18,3 +18,4 @@ coverage.out
 
 # Build
 dist/
+clawdtop

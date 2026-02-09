@@ -9,9 +9,9 @@ import (
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/isaacaudet/clawdtop/internal/config"
-	"github.com/isaacaudet/clawdtop/internal/model"
-	"github.com/isaacaudet/clawdtop/internal/provider"
+	"github.com/isaacaudet/aitop/internal/config"
+	"github.com/isaacaudet/aitop/internal/model"
+	"github.com/isaacaudet/aitop/internal/provider"
 )
 
 type viewType int
@@ -275,7 +275,7 @@ func (m Model) View() string {
 	var sb strings.Builder
 
 	// Header with provider icons.
-	title := StyleTitle.Render("  clawdtop")
+	title := StyleTitle.Render("  aitop")
 	subtitle := StyleSubtitle.Render(" — AI Usage Dashboard")
 	providerIcons := ""
 	if m.aggData != nil {

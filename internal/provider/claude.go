@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/isaacaudet/clawdtop/internal/model"
-	"github.com/isaacaudet/clawdtop/internal/parser"
+	"github.com/isaacaudet/aitop/internal/model"
+	"github.com/isaacaudet/aitop/internal/parser"
 )
 
 // Claude implements Provider for Claude Code / OpenClaw.

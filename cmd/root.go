@@ -5,10 +5,10 @@ import (
 	"os"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/isaacaudet/clawdtop/internal/config"
-	"github.com/isaacaudet/clawdtop/internal/parser"
-	"github.com/isaacaudet/clawdtop/internal/provider"
-	"github.com/isaacaudet/clawdtop/internal/tui"
+	"github.com/isaacaudet/aitop/internal/config"
+	"github.com/isaacaudet/aitop/internal/parser"
+	"github.com/isaacaudet/aitop/internal/provider"
+	"github.com/isaacaudet/aitop/internal/tui"
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
 )
@@ -24,9 +24,9 @@ func AllProviders() []provider.Provider {
 }
 
 var rootCmd = &cobra.Command{
-	Use:   "clawdtop",
+	Use:   "aitop",
 	Short: "Interactive terminal dashboard for AI coding tool usage",
-	Long:  "clawdtop - A beautiful TUI for visualizing AI tool usage, costs, and projections across Claude Code, Cursor, Gemini, Codex, and more.",
+	Long:  "aitop - A beautiful TUI for visualizing AI tool usage, costs, and projections across Claude Code, Cursor, Gemini, Codex, and more.",
 	RunE: func(cmd *cobra.Command, args []string) error {
 		cfg := config.Load()
 
@@ -55,7 +55,7 @@ var rootCmd = &cobra.Command{
 
 		if !term.IsTerminal(int(os.Stdin.Fd())) {
 			fmt.Fprintf(os.Stderr, "No interactive terminal detected. Falling back to summary mode.\n")
-			fmt.Fprintf(os.Stderr, "Run `clawdtop` from a real terminal for the interactive TUI.\n\n")
+			fmt.Fprintf(os.Stderr, "Run `aitop` from a real terminal for the interactive TUI.\n\n")
 			return summaryCmd.RunE(cmd, args)
 		}
 

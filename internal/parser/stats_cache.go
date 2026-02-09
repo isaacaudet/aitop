@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/isaacaudet/clawdtop/internal/model"
+	"github.com/isaacaudet/aitop/internal/model"
 )
 
 // DefaultStatsCachePath returns the default path to stats-cache.json.

@@ -1,4 +1,4 @@
-module github.com/isaacaudet/clawdtop
+module github.com/isaacaudet/aitop
 
 go 1.25.7
 

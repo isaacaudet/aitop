@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/isaacaudet/clawdtop/internal/model"
+	"github.com/isaacaudet/aitop/internal/model"
 )
 
 // DefaultProjectsDir returns the default path to the projects directory.

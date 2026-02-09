@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/lipgloss"
-	"github.com/isaacaudet/clawdtop/internal/config"
-	"github.com/isaacaudet/clawdtop/internal/model"
-	"github.com/isaacaudet/clawdtop/internal/provider"
-	"github.com/isaacaudet/clawdtop/internal/tui/components"
+	"github.com/isaacaudet/aitop/internal/config"
+	"github.com/isaacaudet/aitop/internal/model"
+	"github.com/isaacaudet/aitop/internal/provider"
+	"github.com/isaacaudet/aitop/internal/tui/components"
 )
 
 func renderDashboard(cache *model.StatsCache, aggData *provider.AggregatedData, width int, cfg config.Config) string {
